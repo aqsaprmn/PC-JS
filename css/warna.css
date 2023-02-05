@@ -1,0 +1,75 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  /* border: 1px black solid; */
+}
+
+.container,
+.box,
+.otomatis,
+.mouse {
+  text-align: center;
+  /* border: 1px black solid; */
+
+  padding: 20px;
+}
+
+.bg-blue {
+  background-color: rgb(61, 103, 209);
+}
+
+.kotak {
+  width: 20px;
+  height: 20px;
+  /* border: 1px solid black; */
+  margin: auto;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.btn {
+  background-color: rgb(8, 71, 228);
+  border: 1px solid rgb(8, 71, 228);
+  border-radius: 10px;
+  color: white;
+  padding: 10px 20px;
+  margin: auto 2px;
+}
+
+.btn:hover {
+  background-color: rgb(9, 61, 192);
+  border: 1px solid rgb(9, 61, 192);
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.otomatis input {
+  display: block;
+  margin: 4px auto;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 20px;
+  width: 20%;
+}

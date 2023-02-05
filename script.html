@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/script.css" />
+    <title>Belajar JS</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    #go {
+      background-color: black;
+      border: black 1px solid;
+      color: white;
+      max-width: 500px;
+      border-radius: 20px;
+      padding: 20px;
+      text-align: center;
+      margin: 15% auto;
+    }
+
+    #go #color {
+      color: #ffffff;
+    }
+
+    #go button {
+      background-color: rgb(0, 60, 255);
+      color: white;
+      border: 1px solid rgb(0, 60, 255);
+      border-radius: 10px;
+      padding: 10px 20px;
+    }
+
+    #go button:hover {
+      background-color: rgb(4, 0, 255);
+      cursor: pointer;
+    }
+  </style>
+  <body>
+    <div id="container">
+      <div id="go">
+        <h2>Backgorund Colour : <span id="color">#ffffff</span></h2>
+        <button id="btnc">Change Colour!</button>
+      </div>
+
+      <button id="btn">Modal</button>
+      <div id="modal">
+        <div id="modal-content">
+          <div id="modal-header">
+            <span id="tutup">&times;</span>
+            <h3>foxcY</h3>
+          </div>
+          <hr />
+          <form action="" method="POST" autocomplete="off">
+            <div id="modal-main">
+              <div class="form-control">
+                <input type="text" name="penerima" placeholder="To" />
+              </div>
+              <div class="form-control">
+                <input type="text" name="subjek" placeholder="Subject" />
+              </div>
+              <div class="form-control">
+                <textarea
+                  name="pesan"
+                  id="pesan"
+                  cols=""
+                  placeholder="Message.."
+                  rows="4"
+                ></textarea>
+              </div>
+            </div>
+            <hr />
+            <div id="modal-action">
+              <div class="form-control">
+                <input type="submit" name="kirim" value="Kirim" />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="js/script.js"></script>
+</html>

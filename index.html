@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bermain - Main Warna</title>
+    <link rel="stylesheet" href="css/warna.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Main - Main sama Warna</h2>
+      <h4>Warna Background Sekarang : <span>rgb(255 , 255 , 255)</span></h4>
+      <input class="btn" type="button" value="Refresh" />
+      <!-- <button type="button" id="uWarna">Ubah Warna Background</button> -->
+    </div>
+    <div class="otomatis">
+      <h2>Ganti Warna Dengan waktu tertentu</h2>
+      <small
+        >Jika tidak isi waktu , maka tidak akan berhenti untuk otomatis
+        mengganti warna dan warna akan berubah setiap 1 detik.</small
+      >
+      <input
+        type="number"
+        name="setiap"
+        placeholder="Setiap Berapa Lama ? (Detik) "
+      />
+      <input type="number" name="lama" placeholder="Berapa Lama ? (Detik) " />
+    </div>
+    <div class="box">
+      <h2>Ubah Warna menggunakan range RGB</h2>
+      <div class="kotak red"></div>
+      <input type="range" min="0" max="255" name="red" />
+
+      <div class="kotak green"></div>
+      <input type="range" min="0" max="255" name="green" />
+
+      <div class="kotak blue"></div>
+      <input type="range" min="0" max="255" name="blue" />
+    </div>
+
+    <div class="mouse">
+      <h2>Ubah warna ketika mouse digerakkan</h2>
+      <button id="uMouse" class="btn">Aktifkan Gerakkan Mouse</button>
+      <button id="uMatiMouse" class="btn">Matikan Gerakan Mouse</button>
+    </div>
+
+    <script src="js/warna.js"></script>
+  </body>
+</html>
